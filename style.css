@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 5px;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+img {
+  width: 200px;
+}
